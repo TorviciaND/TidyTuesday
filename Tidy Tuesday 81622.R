@@ -62,7 +62,8 @@ ggplot(data = wheel) +
   scale_color_manual(values = c("red", "blue", "yellow")) + 
   geom_point(aes(x = xcabin, y = ycabin, size = passengers_per_cabin, color = as.factor(color))) + #Adds the cabins to the wheel
   geom_text(aes(x = x, y = text, label = paste(name, "\n", country)), size = 5, family = "Trebuchet MS", color = "#ffffff") + #Country info below each wheel
-  theme(panel.background = element_rect(fill = fillcolor),
+  #wheel wheel wheel... this word has started to look like something that isn't a word.  Does that ever happen to you?  
+theme(panel.background = element_rect(fill = fillcolor),
         plot.background = element_rect_round(fill = fillcolor, radius = unit(1, "cm")),
         legend.position = "none",
         panel.grid.major = element_line(color =fillcolor),
