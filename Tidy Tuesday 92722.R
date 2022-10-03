@@ -76,7 +76,7 @@ ggplot(data = artists, aes(x = location_quotient, y = pillars, size = artists_sh
                   show.legend = F, 
                   position = position_jitter(seed = 1, width = 0, height = 0.2),
                   max.overlaps = 200) +
-  #These pu the line segments between the different types of Art
+  #These put the line segments between the different types of Art
   geom_segment(aes(x = 0, xend = 15.5, y = 6.5, yend = 6.5), color = subcolor, size = 0.1)+
   geom_segment(aes(x = 0, xend = 15.5, y = 5.5, yend = 5.5), color = subcolor, size = 0.1)+
   geom_segment(aes(x = 0, xend = 15.5, y = 4.5, yend = 4.5), color = subcolor, size = 0.1)+
