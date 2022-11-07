@@ -1,4 +1,6 @@
 #Load the necessary libraries
+#I hate horror movies and I'm not going to be able to sleep tonight after looking at some of these posters.
+
 library(tidyverse)
 library(jpeg) #allows for images in ggplot
 library(ggimage) #allows for images in ggplot
