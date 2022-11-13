@@ -4,7 +4,6 @@ library(purrr)
 library(tidyr)
 library(janitor)
 library(rvest)
-library(usmap)
 
 #######################################################################################################
 #Get the Data
